@@ -92,7 +92,7 @@ const SearchResultsPage: React.FC = () => {
               Results for "{searchResults.autopromptString}"
             </Typography>
             <Chip
-              label={${searchResults.results.length} results found}
+              label={`${searchResults.results.length} results found`}
               color="primary"
               variant="outlined"
             />
